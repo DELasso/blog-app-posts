@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: blog
-        image: delasso/blog-app-posts:latest # <- This comes from Docker Hub/ need to change tags
+        image: lassovb/blog-app-posts:latest # <- This comes from Docker Hub/ need to change tags
         ports:
         - containerPort: 5000
 
